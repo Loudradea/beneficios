@@ -1,0 +1,582 @@
+<html lang="en">
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="description" content="">
+    <meta name="author" content="CCB-Solutions">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!--====== Title ======-->
+    <title>Sistema de consulta para beneficios </title>
+    <!--====== Favicon Icon ======-->
+    <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/png">
+    <!--====== Bootstrap css ======-->
+    
+    <!--====== Line Icons css ======-->
+    <link rel="stylesheet" href="assets/css/LineIcons.css">
+    <!--====== Default css ======-->
+    <link rel="stylesheet" href="assets/css/default.css">
+    <!--====== Style css ======-->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <link href="assets/fas/css/all.css" rel="stylesheet">
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+
+    <!--====== Style CSS randomizado para Villa Alemana======-->
+    <link rel="stylesheet" type="text/css" href="assets/css/stylefont.css">
+    
+    <script src="assets/js/scripts.js"></script>
+    
+    <link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
+</head>
+
+
+  <section class="banner">
+    <img class="banner__img img-responsive" src="assets/css/portada/cabecera.jpg">
+    <div class="banner__info">
+        <h1 class="banner__title">CONSULTA SI ESTÁS EN LA NOMINA</h1>
+        <p style="font-size: 24px;" class="banner__p"></p>
+        <button class="button button4"><a style="color:white; font-weight: 800;" href="consultasbeneficios.html">CONSULTAR <i class="fas fa-search"></i> </a> </button>
+
+    </div>
+</section>
+
+
+<body style="background: white;">
+
+
+  
+
+
+	 <!--<div>
+		<a href="index.html"><img id="hero-cont"  src="assets/css/portada/portada.png" class="img-responsive"></a>
+	 </div> -->
+     <div src="assets/css/portada/portada.png" class="img-responsive" alt="Cinque Terre"></div>
+
+        <section  class="services-area  mb-1">
+          <div style="width: auto;" class="container">
+          <div class="row">
+                <div class="col-lg-10">
+					 <img style="padding-top: 50px;" src="assets/images/banner1.png" class="rounded mx-auto d-block" alt="...">
+					 <h1 class="lead" style="text-align: justify; font-size: 25px; font-family: opensans;">
+						El Municipio de Villa Alemana ha creado esta nueva plataforma para 
+						que puedas acceder a todos los beneficios que tenemos para ti.
+					 </h1>
+					 <br>
+					 <h1 class="lead" style="text-align: justify; font-size: 25px; font-family: opensans;">
+						Si tienes Registro Social de Hogares, perteneces a la población vulnerable de la comuna o a la clase media más necesitada, 
+						consulta si eres beneficiario o inscríbete para ser evaluado y así, acceder a las opciones que el municipio tiene disponible para la comunidad.
+						<br>
+						<br>
+					 </h1>
+				   
+                </div>
+                </div>
+          </div> <!-- Container -->
+        </section>
+
+  
+    <!--====== PAGE BANNER PART START ======-->
+
+
+    <div id="ventanaModal" class="modal" tabindex="-1" role="dialog">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Requisitos de Postulación</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p style="font-size: 12px;">
+              
+              <ul>
+                <li>
+                - Registro Social de Hogares hasta el <strong>70%</strong>, actualizado en la comuna.
+              </li>
+              <li>
+                - Sobre el <strong>70%</strong>, con evaluación social y elaboración de ficha social en el marco del Estado de Catástrofe Nacional.
+              </li>
+              <li>
+                - Situaciones especiales atendidas según criterio aplicado por Asistente Social.
+              </li>
+              <li>
+                
+              </li>
+              </ul>
+
+             
+
+              </p>
+              
+          </div>
+          <div class="modal-footer">
+            <a href="formularioRegistro.html" type="button" class="btn btn-primary">ACEPTAR</a>
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">CERRAR</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div id="multi-item-example" class="carousel slide carousel-multi-item" data-ride="carousel">
+
+    <!--Controls-->
+    <div id="goBackgoAhead"style="color: black;" class="controls-top">
+      <a class="btn-floating" href="#multi-item-example" data-slide="prev"><i class="fa fa-chevron-left"></i>Atras</a>
+      <a class="btn-floating" href="#multi-item-example" data-slide="next">Adelante<i class="fa fa-chevron-right"></i></a>
+    </div>
+    <!--/.Controls-->
+  
+    <!--Indicators-->
+    <ol class="carousel-indicators">
+      <li data-target="#multi-item-example" data-slide-to="0" class="active"></li>
+      <li data-target="#multi-item-example" data-slide-to="1"></li>
+      <li data-target="#multi-item-example" data-slide-to="2"></li>
+    </ol>
+    <!--/.Indicators-->
+  
+    <!--Slides-->
+    <div class="carousel-inner" role="listbox">
+  
+      <!--First slide-->
+      <div class="carousel-item active">
+  
+        <div class="row">
+  
+          <div class="col-md-3">
+            <div class="card mb-2">
+              <img class="card-img-top" src="assets/images/noticias/2.jpg"
+                alt="Card image cap">
+              <div class="card-body">
+                <h4 class="card-title">Entrega de Cajas COV</h4>
+                <p class="card-text">
+                  </p>
+                
+              </div>
+            </div>
+          </div>
+  
+          <div class="col-md-3 d-none d-md-block">
+            <div class="card mb-2">
+              <img class="card-img-top" src="assets/images/noticias/3.jpg"
+                alt="Card image cap">
+              <div class="card-body">
+                <h4 class="card-title">MUNICIPIO APORTÓ CON MÁS DE 9 MILLONES DE PESOS PARA
+QUE JUNTAS DE VECINOS DEN CONTINUIDAD A COMEDORES
+SOLIDARIOS</h4>
+                <p class="card-text">
+                  “A pesar de lo dolorosa que es la necesidad, esta pandemia también ha
+ayudado a sacar lo mejor de las personas y estamos muy orgullosos del
+trabajo que han realizado las juntas de vecinos en este proceso.
+Nosotros como municipio... <strong> <a href="municipio_aporte.html">Ver más </a></strong>
+                  </p>
+                
+              </div>
+            </div>
+          </div>
+  
+          <div class="col-md-3 d-none d-md-block">
+            <div class="card mb-2">
+              <img class="card-img-top" src="assets/images/noticias/4.jpg"
+                alt="Card image cap">
+              <div class="card-body">
+                <h4 class="card-title">Entrega de Vales y Subsidios para 20 mil personas</h4>
+                <p class="card-text">
+                  VILLA ALEMANA: VILLA ALEMANA ENTREGARÁ VALES DE GAS Y
+UN SUBSIDIO DE COMPRA A 20 MIL FAMILIAS VULNERABLES DE
+LA COMUNA... <strong> <a href="entrega_beneficios.html">Ver más </a></strong>
+                  </p>
+                
+              </div>
+            </div>
+          </div>
+  
+          <div class="col-md-3 d-none d-md-block">
+            <div class="card mb-2">
+              <img class="card-img-top" src="assets/images/noticias/5.jpg"
+                alt="Card image cap">
+              <div class="card-body">
+                <h4 class="card-title">FAMILIAS QUE CUENTEN CON R.S.H HASTA 70% PODRÁN ACCEDER A BENEFICIOS SOCIALES MUNICIPALES</h4>
+                <p class="card-text">
+                  FAMILIAS QUE CUENTEN CON R.S.H. HASTA 70% PODRÁN
+         ACCEDER A BENEFICIOS SOCIALES MUNICIPALES
+
+Con la aprobación del Concejo Municipal, 29 mil familias de la comuna,
+que cuenten con su... <strong> <a href="entrega_quintal.html">Ver más </a></strong>
+                  </p>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+  
+      </div>
+      <!--/.First slide-->
+  
+      <!--Second slide-->
+      <div class="carousel-item">
+  
+        <div class="row">
+  
+          <div class="col-md-3">
+            <div class="card mb-2">
+              <img class="card-img-top" src="assets/images/noticias/6.jpg"
+                alt="Card image cap">
+              <div class="card-body">
+                <h4 class="card-title">Entrega de Cajas COVID-19</h4>
+                <p class="card-text">
+                  </p>
+                
+              </div>
+            </div>
+          </div>
+  
+          <div class="col-md-3 d-none d-md-block">
+            <div class="card mb-2">
+              <img class="card-img-top" src="assets/images/noticias/7.jpg"
+                alt="Card image cap">
+              <div class="card-body">
+                <h4 class="card-title">Entrega de beneficios</h4>
+                <p class="card-text">
+                  </p>
+                
+              </div>
+            </div>
+          </div>
+  
+          <div class="col-md-3 d-none d-md-block">
+            <div class="card mb-2">
+              <img class="card-img-top" src="assets/images/noticias/8.jpg"
+                alt="Card image cap">
+              <div class="card-body">
+                <h4 class="card-title">Entrega de Beneficios</h4>
+                <p class="card-text">
+                  </p>
+                
+              </div>
+            </div>
+          </div>
+  
+          <div class="col-md-3 d-none d-md-block">
+            <div class="card mb-2">
+              <img class="card-img-top" src="assets/images/noticias/9.jpg"
+                alt="Card image cap">
+              <div class="card-body">
+                <h4 class="card-title">Entrega de Cajas Covid- 19</h4>
+                <p class="card-text">
+                  </p>
+                
+              </div>
+            </div>
+          </div>
+  
+        </div>
+  
+      </div>
+      <!--/.Second slide-->
+  
+      <!--Third slide-->
+      <div class="carousel-item">
+  
+        <div class="row">
+  
+          <div class="col-md-3">
+            <div class="card mb-2">
+              <img class="card-img-top" src="assets/images/noticias/noticia.jpg"
+                alt="Card image cap">
+              <div class="card-body">
+                <h4 class="card-title">Entrega de Cajas Covid-19</h4>
+                <p class="card-text">
+                  </p>
+               </div>
+            </div>
+          </div>
+  
+          <div class="col-md-3 d-none d-md-block">
+            <div class="card mb-2">
+              <img class="card-img-top" src="assets/images/noticias/1.jpg"
+                alt="Card image cap">
+              <div class="card-body">
+                <h4 class="card-title">Entrega de Cajas Covid-19</h4>
+                <p class="card-text">
+                  </p>
+                
+              </div>
+            </div>
+          </div>
+  
+          <div class="col-md-3 d-none d-md-block">
+            <div class="card mb-2">
+              <img class="card-img-top" src="assets/images/noticias/noticia3.jpg"
+                alt="Card image cap">
+              <div class="card-body">
+                <h4 class="card-title">Entrega de Cajas Covid-19</h4>
+                <p class="card-text">
+                  </p>
+                
+              </div>
+            </div>
+          </div>
+  
+          <div class="col-md-3 d-none d-md-block">
+            <div class="card mb-2">
+              <img class="card-img-top" src="assets/images/noticias/noticia2.jpg"
+                alt="Card image cap">
+              <div class="card-body">
+                <h4 class="card-title">Entrega de Cajas Covid-19</h4>
+                <p class="card-text">
+                </p>
+                
+              </div>
+            </div>
+          </div>
+  
+        </div>
+  
+      </div>
+      <!--/.Third slide-->
+  
+    </div>
+    <!--/.Slides-->
+  
+  </div>
+    <!--====== SERVICES ONE PART START ======-->
+    <br>
+    <br>
+    <br>
+
+
+
+    <section style="background:  linear-gradient(to right, rgba(183,222,237,1) 8%, rgba(151,215,238,1) 20%, rgba(113,206,239,1) 34%, rgba(74,193,233,1) 50%, rgba(33,180,226,1) 67%, rgba(183,222,237,1) 100%);)class="services-area services-one mb-1" style="background-color: blue;">
+    <br>
+    <br>
+    <br>
+    <br>
+    <h1 id="titleBenefits" style="color:white;">Beneficios a los que puedes Postular</h1>
+    <p class="text-center"><a href="#" target="_blank" rel="nofollow"><i class="fas fa-twitter-square"></i> #VillaAlemanaSomosTodos</a> Visita nuestras redes sociales</p>
+    <br>
+    <br>
+    <hr>
+    <div class="container">
+        <div class="row">
+          <div class="col-sm">
+            <div class="section-title pb-1">
+                <h4 class="title">Beneficios COVID-19</h4>
+                </div>
+                
+            <button type="button" data-toggle="modal" data-target="#ventanaModal" style="border-color: white;background-color: purple; border-radius: 50px;"class="btn btn-danger btn-lg btn-block"><i  class="fas fa-virus">
+              
+            </i> Beneficios Vales de Gas y Aporte de $20.000</button>
+
+          </div>
+          <div class="col-sm">
+            <div class="section-title pb-10">
+                <h4 class="title">Otros Beneficios</h4>
+                </div>
+            <button type="button" class="btn btn-success btn-lg btn-block" style=" border-radius: 50px;border-color: white; background-color: #95C11F;"><i class="fas fa-faucet"></i> Beneficio Agua Potable </button>
+            <button type="button" class="btn btn-danger btn-lg btn-block"style="border-radius: 50px;border-color: white;background-color: #95C11F;"><i class="fa fa-trash"></i>  Exensión de pago derechos de aseo </button>
+            <button type="button" class="btn btn-danger btn-lg btn-block"style="border-radius: 50px;border-color: white;background-color: #95C11F;"><i class="fa far fa-lightbulb"></i>  Subsidio Luz </button>
+          </div>
+         
+        </div>
+      </div>
+    </section>
+
+
+
+
+    <section style="background:  linear-gradient(to right, rgba(183,222,237,1) 8%, rgba(151,215,238,1) 20%, rgba(113,206,239,1) 34%, rgba(74,193,233,1) 50%, rgba(33,180,226,1) 67%, rgba(183,222,237,1) 100%);;" class="services-area services-one">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="section-title pb-1">
+                        <h4 class="title">Municipalidad de Villa Alemana</h4>
+                        <p class="text">No pierdas tu tiempo y desgaste la salud, permitenos entregar las herramientas para que puedas recibir tus beneficios de manera rapida y virtual</p>
+                    </div> <!-- section title -->
+                </div>
+            </div> <!-- row -->
+            <div class="row">
+                <div class="col-lg-8">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="services-content mt-40 d-sm-flex">
+                                <div class="services-icon">
+                                    <i class="lni-school-compass"></i>
+                                </div>
+                                <div class="services-content media-body">
+                                    <h4 class="services-title">Cercanía</h4>
+                                    <p class="text">Estamos contigo, somos parte de tus problemáticas, pero por sobre todo de las soluciones. </p>
+                                </div>
+                            </div> <!-- services content -->
+                        </div>
+                        <div class="col-md-6">
+                            <div class="services-content mt-40 d-sm-flex">
+                                <div class="services-icon">
+                                    <i class="lni-construction"></i>
+                                </div>
+                                <div class="services-content media-body">
+                                    <h4 class="services-title">Efectividad</h4>
+                                    <p class="text">Tú sólo debes inscribirte y el beneficio que necesitas llegará a la puerta de tu hogar.</p>
+                                </div>
+                            </div> <!-- services content -->
+                        </div>
+                        <div class="col-md-6">
+                            <div class="services-content mt-40 d-sm-flex">
+                                <div class="services-icon">
+                                    <i class="lni-cup"></i>
+                                </div>
+                                <div class="services-content media-body">
+                                    <h4 class="services-title">Conscientes</h4>
+                                    <p class="text">En los tiempos de hoy queremos protegerte y para ello, podrás tener disponibles todos los beneficios sociales en un sólo lugar y a un sólo click.</p>
+                                </div>
+                            </div> <!-- services content -->
+                        </div>
+                        <div class="col-md-6">
+                            <div class="services-content mt-40 d-sm-flex">
+                                <div class="services-icon">
+                                    <i class="lni-laptop-phone"></i>
+                                </div>
+                                <div class="services-content media-body">
+                                    <h4 class="services-title">Transparencia</h4>
+                                    <p class="text">Podrás revisar y certificar que todo lo que se está entregando para la comunidad está de aquí, de manera comprobable y segura</p>
+                                </div>
+                            </div> <!-- services content -->
+                        </div>
+                    </div> <!-- row -->
+                </div>
+            </div> <!-- row -->
+        </div> <!-- container -->
+        <div class="services-image d-lg-flex align-items-center">
+            <div class="image">
+                <img src="assets/images/beneficios/people.png" alt="Services">
+            </div>
+        </div> <!-- services image -->
+        <p class="text-center"><a href="#" target="_blank" rel="nofollow"><i class="fa fa-twitter-square"></i> #VillaAlemanaSomosTodos</a> Visita nuestras redes sociales</p>
+    </section>
+  </div> <!-- Contenedor color Azul -->
+    </body>
+    <footer style="background-color: black;"class="footer-area footer-one">
+        <div class="footer-widget">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="footer-logo-support d-md-flex align-items-end justify-content-between">
+                            <div class="footer-logo">
+                              <h3 style="color: dodgerblue;">Atención telefonica 800 400 050</h3>
+                            </div> <!-- footer logo -->
+                        </div> <!-- footer logo support -->
+                    </div>
+                </div> <!-- row -->
+                <div class="row">
+                    <div class="col-xl-6 col-lg-4 col-sm-12">
+                        <div class="footer-support ">
+                            <span style="color:white;">Sugerencias, reclamos y consultas</span>
+                            <span style="color:white;"class="mail">mesadeayuda@villalemana.cl</span>
+                        </div>
+                        <div class="footer-app-store">
+                            <ul>
+                                
+                                <li><a href="#"><img src="assets/images/beneficios/app.png" style="width: 350px;" alt="play"></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="row">
+                            <div class="footer-link">
+                                <ul>
+                                    <li>
+                                        <a href="localhost:81/beneficios/transito" style="color: white;">Dirección de transito</a> <!--  Dirección transito -->
+                                        <a href="localhost:81/beneficios/ambiente" style="color: white;">Dirección de medio ambiente</a> <!--Direccióntransito -->
+                                        <a href="localhost:81/beneficios/deportes" style="color: white;">Dirección de deportes</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="col-xl-2 col-lg-2 col-sm-4">
+                        <div class="footer-link">
+                            <h6 class="footer-title">Municipalidad de villa Alemana</h6>
+                            <ul>
+                              <li><a style="color:white;"href="#">Villa Alemana Participa</a></li>
+                              <li><a style="color:white;"href="#">Sitio Oficial Municipalidad</a></li>
+                              <li><a style="color:white;"href="#">Clase Media Protegida</a></li>
+                          </ul>
+                        </div> <!-- footer link -->
+                    </div>
+                   
+                    <div class="col-xl-2 col-lg-3 col-sm-4">
+                        <div class="footer-link">
+                            <h6 class="footer-title">Ayuda &amp; Soporte</h6>
+
+                            <ul>
+                                <li><a style="color:white;"href="#">Mesa de ayuda</a></li>
+                                
+                                <li><a style="color:white;"href="#">Terminos &amp; Condiciones</a></li>
+                            </ul>
+                            <h5></h5>
+                            
+                        </div>
+                        <h5 style="color:white;">Municipalidad de Villa Alemana
+                            Buenos Aires 850, Villa Alemana
+                            </h5> <!-- footer link -->
+                            <h1></h1>
+                    
+                            
+                    </div>
+                    <img src="assets/images/logos/ccbfooter.png" style="width: 100px; height: 100px;" alt="play">
+                    <div class="footer-copyright">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div class="copyright text-center d-md-flex justify-content-between align-items-center">
+                                        <p style="color:white;"class="text">Copyright © 2020 Municipalidad Villa Alemana. Todos los derechos reservados</p>
+                                        <ul class="social">
+                                            <li><a href="#"><i class="lni-facebook-filled"></i></a></li>
+                                            <li><a href="#"><i class="lni-twitter-original"></i></a></li>
+                                            <li><a href="#"><i class="lni-instagram-original"></i></a></li>
+                                            <li><a href="#"><i class="lni-linkedin-original"></i></a></li>
+                                        </ul>
+                                    </div> <!-- copyright -->
+                                </div>
+                            </div> <!-- row -->
+                        </div> <!-- container -->
+                    </div>
+                </div> <!-- row -->
+            </div> <!-- container -->
+        </div> <!-- footer widget -->
+        
+        <!-- footer copyright -->
+    </footer>
+
+    <script src="assets/js/vendor/modernizr-3.6.0.min.js"></script>
+    <script src="assets/js/vendor/jquery-1.12.4.min.js"></script>
+
+    <!--====== Bootstrap js ======-->
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+
+     <!--====== Images Loaded js ======-->
+    <script src="assets/js/imagesloaded.pkgd.min.js"></script>
+    
+    <!--====== Appear js ======-->
+    <script src="assets/js/jquery.appear.min.js"></script>
+
+ 
+
+   
+
+       
+    
+
+
+
+
+<!-- Mirrored from 192.168.1.146:81/beneficios/body by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 31 Jul 2020 15:28:13 GMT -->
+</html>
